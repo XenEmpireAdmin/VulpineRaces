@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+<RulePackDef>
+    <defName>NamerPersonFennexMale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[FennexMfirst] [Fennexlast]</li>
+        <li>name->[badassfx] [Fennexfirst]</li>
+        <li>name->[FennexMfirst] '[badassfx]' [Fennexlast]</li>
+        <li>name->[FennexMfirst] [badassfx]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>FennexMfirst</keyword>
+          <path>Fennex_Names/FennexM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Fennexlast</keyword>
+          <path>Fennex_Names/Fennexlast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassfx</keyword>
+          <path>Fennex_Names/Concepts_Fen</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerPersonFennexFemale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[FennexFfirst] [Fennexlast]</li>
+        <li>name->[badassfx] [Fennexfirst]</li>
+        <li>name->[FennexFfirst] '[badassfx]' [Fennexlast]</li>
+        <li>name->[FennexFfirst] [badassfx]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>FennexFfirst</keyword>
+          <path>Fennex_Names/FennexF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Fennexlast</keyword>
+          <path>Fennex_Names/Fennexlast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassfx</keyword>
+          <path>Fennex_Names/Concepts_Fen</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</NameMakerDefs>

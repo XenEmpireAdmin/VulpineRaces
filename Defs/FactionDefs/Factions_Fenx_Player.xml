@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="FennexFactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef Parent="FennexFactionBase">
+    <defName>FennexPlayerColony</defName>
+    <label>Fennex Cooperative</label>
+    <description>Your own Fennex Cooperative Colony.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Fennex</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategory>FennexBackstory</backstoryCategory>
+    <homeIconPath>World/FennexBaseIcon</homeIconPath>
+    <expandingIconTexture>World/FennexBaseIcon</expandingIconTexture>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>FennexHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  
+    <FactionDef Parent="FennexFactionBase">
+    <defName>FennexPlayerColonyTribal</defName>
+    <label>Fennex Agency Tribal-like</label>
+    <description>Fennex semi-tribal start. (No research done, but high tech level)</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Fennex</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategory>FennexBackstory</backstoryCategory>
+    <homeIconPath>World/FennexBaseIcon</homeIconPath>
+    <expandingIconTexture>World/FennexBaseIcon</expandingIconTexture>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>FennexHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+
+</Defs>
