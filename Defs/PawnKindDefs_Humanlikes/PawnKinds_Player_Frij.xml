@@ -14,7 +14,7 @@
     <defName>Frijjid</defName>
     <label>colonist</label>
     <defaultFactionType>FrijjidPlayerColony</defaultFactionType>
-    <backstoryCategory>FrijjidBackstory</backstoryCategory>
+    <backstoryCategory>FennexBackstory</backstoryCategory>
     <apparelTags>
       <li>Spacer</li>
     </apparelTags>

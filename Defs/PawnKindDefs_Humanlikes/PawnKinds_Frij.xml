@@ -6,7 +6,7 @@
   <PawnKindDef Name="FrijjidBase" Abstract="True">
     <defaultFactionType>FrijjidFaction</defaultFactionType>
     <race>Alien_Frijjid</race>
-	<backstoryCategory>FrijjidBackstory</backstoryCategory>
+	<backstoryCategory>FennexBackstory</backstoryCategory>
     <chemicalAddictionChance>0.005</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
     <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
