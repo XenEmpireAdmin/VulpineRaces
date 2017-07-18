@@ -44,7 +44,6 @@
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
-	<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 	<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
     <spawnCategories>
@@ -227,10 +226,10 @@
     <titleShort>Noble</titleShort>
     <baseDescription>NAME is apparently descended from an ancient line of kings, or at least HIS grandfather was always drumming it into HIS head, along with various lessons on etiquette, protocol, and political lessons.</baseDescription>
     <slot>Childhood</slot>
-	<bodyTypeFemale>Female</bodyTypeFemale>
-	<bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+  	<bodyTypeMale>Male</bodyTypeMale>
 		<maleCommonality>30</maleCommonality>
-	<femaleCommonality>30</femaleCommonality>
+	  <femaleCommonality>30</femaleCommonality>
       <spawnCategories>
       <li>FennexBackstory</li>
     </spawnCategories>
@@ -256,9 +255,10 @@
     <titleShort>Forester-kid</titleShort>
     <baseDescription>NAME grew up right at the edge of a great forest. HECAP spent most of HIS free time playing and investigating all the fascinating plants and animals that HECAP could find there.</baseDescription>
     <slot>Childhood</slot>
-    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
-	<femaleCommonality>20</femaleCommonality>
+  	<femaleCommonality>20</femaleCommonality>
       <spawnCategories>
       <li>FennexBackstory</li>
     </spawnCategories>
@@ -294,7 +294,7 @@
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
-	<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>80</maleCommonality>
 	<femaleCommonality>80</femaleCommonality>
     <skillGains>
@@ -316,14 +316,119 @@
     </spawnCategories>
   </AlienRace.BackstoryDef>
 
-      <AlienRace.BackstoryDef>
 
+  <AlienRace.BackstoryDef>
+    <defName>FennexCityKid</defName>
+    <title>City kid</title>
+    <titleShort>Urb-kit</titleShort>
+    <baseDescription>NAME grew up in one of the megalopolis centers on a dense Urbworld. After school, HECAP would head off to one of the metro malls or arcades. Growing up in a concrete landscape, left HIM a bit lacking when it comes to plants and animals.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<maleCommonality>80</maleCommonality>
+	<femaleCommonality>80</femaleCommonality>
+    <skillGains>
+          <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>-1</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>FennexBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>FennexCountryKid</defName>
+    <title>Farm kid</title>
+    <titleShort>Farm-kit</titleShort>
+    <baseDescription>NAME grew up in an ag region, supporting the major metropolises food supply on HIS Rimworld. Living so far from other young people made social life difficult, but NAME made the best of it - though HECAP ended up a bit shy.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<maleCommonality>80</maleCommonality>
+	<femaleCommonality>80</femaleCommonality>
+    <skillGains>
+          <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>FennexBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>FennexGeniusKid</defName>
+    <title>Young genius</title>
+    <titleShort>Prodigy</titleShort>
+    <baseDescription>NAME loved tinkering with HIS toys, taking them apart and reassembling them - programming simple little computer programs from HIS elementary school textbooks - or simply reading any piece of information HECAP can get HIS hands on.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<maleCommonality>80</maleCommonality>
+	<femaleCommonality>80</femaleCommonality>
+    <skillGains>
+          <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>5</amount>
+      </li>
+         <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>FennexBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+   <AlienRace.BackstoryDef>
     <defName>FennexDigKid</defName>
     <title>Tunnel kit</title>
     <titleShort>T-kit</titleShort>
     <baseDescription>NAME was always digging little tunnels in the dirt or snow, or making sandcastles at the beach. HIS parents encouraged HIM to learn about geology, and HIS father would challenge HIM to find certain kinds of rocks in the yard.</baseDescription>
-	<maleCommonality>20</maleCommonality>
-	<femaleCommonality>20</femaleCommonality>
+	  <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
 	<slot>Childhood</slot>
     <skillGains>
       <li>
@@ -440,6 +545,33 @@
       </li>
       <li>
         <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>FennexBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  
+    <AlienRace.BackstoryDef>
+    <defName>FennexConn</defName>
+    <title>Restaurateur</title>
+    <titleShort>Restaurateur</titleShort>
+    <baseDescription>NAME owned and operated a chain of successful high-class urbworld restaurants. Unfortunately, they didn't survive the franchise wars against Taco Gong, and HECAP was forced to flee the planet.</baseDescription>
+  	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeGlobal>Fat</bodyTypeGlobal>
+  <maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
         <amount>5</amount>
       </li>
     </skillGains>
@@ -588,7 +720,9 @@
     <title>Fennex diner-chef</title>
     <titleShort>Diner-chef</titleShort>
     <baseDescription>NAME was a chef in an old Retro-style diner from ancient earth history. It was a pretty popular place, the cherry-red seating and chrome hilights flash and splendor matched the fantastically prepared diner-style food HECAP created every day. How did HECAP end up here?</baseDescription>
-		<maleCommonality>30</maleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>30</maleCommonality>
 	<femaleCommonality>30</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
@@ -851,6 +985,7 @@
     <baseDescription>NAME is a professional mathematician. HECAP uses HIS expertise with mathematics to solve difficult engineering and physics problems.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>8</maleCommonality>
 	<femaleCommonality>8</femaleCommonality>
     <slot>Adulthood</slot>
@@ -879,7 +1014,9 @@
     <title>Airfield mechanic</title>
     <titleShort>Air-mechanic</titleShort>
     <baseDescription>NAME was a skilled mechanic, in charge of maintenance at a major airfield. HECAP was hard-pressed to keep up with the workload, but HIS team was competant, and helped keep the airfield and it's traffic in good working order.</baseDescription>
-		<maleCommonality>25</maleCommonality>
+		<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>25</maleCommonality>
 	<femaleCommonality>25</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>

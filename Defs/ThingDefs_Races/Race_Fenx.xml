@@ -57,6 +57,9 @@
                     <li>Average_Normal</li>
                 </aliencrowntypes>
                 <alienbodytypes>
+                <li>Thin</li>
+                <li>Male</li>
+                <li>Female</li>
                 </alienbodytypes>
 				<TailBodyPart>Tail</TailBodyPart>
                 <alienskincolorgen Class="ColorGenerator_Options">
@@ -186,8 +189,8 @@
       <MarketValue>2000</MarketValue>
       <MoveSpeed>7.62</MoveSpeed>
       <Flammability>0.3</Flammability>
-      <ComfyTemperatureMin>6</ComfyTemperatureMin>
-      <ComfyTemperatureMax>28</ComfyTemperatureMax>
+      <ComfyTemperatureMin>8</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>25</LeatherAmount>
 	   <PsychicSensitivity>0.85</PsychicSensitivity>
 	   <MiningSpeed>1.2</MiningSpeed>

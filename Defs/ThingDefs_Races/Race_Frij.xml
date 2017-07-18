@@ -31,6 +31,9 @@
                     <li>Average_Normal</li>
                 </aliencrowntypes>
                 <alienbodytypes>
+                <li>Thin</li>
+                <li>Male</li>
+                <li>Female</li>
                 </alienbodytypes>
 				<TailBodyPart>Tail</TailBodyPart>
                 <alienskincolorgen Class="ColorGenerator_Options">
@@ -53,7 +56,7 @@
             </li>
 			<li>
                 <weight>5</weight>
-                <only>RGBA(0.27,0.27,0.29,1)</only>
+                <only>RGBA(0.9,0.9,0.91,1)</only>
             </li>
 			<li>
                 <weight>5</weight>
@@ -61,7 +64,7 @@
             </li>
 			<li>
                 <weight>5</weight>
-                <only>RGBA(0.376,0.376,0.376,1)</only>
+                <only>RGBA(0.95,0.96,0.98,1)</only>
             </li>
             <li>
                 <weight>5</weight>
@@ -69,7 +72,7 @@
             </li>
 			<li>
                 <weight>5</weight>
-                <only>RGBA(0.7,0.7,0.7,1)</only>
+                <only>RGBA(0.8,0.81,0.81,1)</only>
             </li>
 			<li>
                 <weight>1</weight>
@@ -176,8 +179,8 @@
       <MarketValue>2000</MarketValue>
       <MoveSpeed>7.62</MoveSpeed>
       <Flammability>0.3</Flammability>
-      <ComfyTemperatureMin>6</ComfyTemperatureMin>
-      <ComfyTemperatureMax>28</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>26</ComfyTemperatureMax>
       <LeatherAmount>25</LeatherAmount>
 	   <PsychicSensitivity>0.85</PsychicSensitivity>
 	   <MiningSpeed>1.2</MiningSpeed>
