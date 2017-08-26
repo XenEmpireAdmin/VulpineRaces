@@ -35,7 +35,6 @@
                 <li>Male</li>
                 <li>Female</li>
                 </alienbodytypes>
-				<TailBodyPart>Tail</TailBodyPart>
                 <alienskincolorgen Class="ColorGenerator_Options">
                     <options>
              <li>
@@ -85,7 +84,45 @@
 			</li>
             </options>
             </alienskincolorgen>
-            <UseSkinColorForTail>true</UseSkinColorForTail>
+            <bodyAddons>
+            <li>
+				<path>Things/Frijjid/Tails/F2Tail</path>
+                <bodyPart>Tail</bodyPart>
+                <UseSkinColor>true</UseSkinColor>
+                <inFrontOfBody>false</inFrontOfBody>
+                      <offsets>
+                <front>
+                                    <bodyTypes>
+                                    <Male>(0,-0.22)</Male>
+                                    <Female>(0,-0.22)</Female>
+                                    <Fat>(0,-0.22)</Fat>
+                                    <Thin>(0,-0.22)</Thin>
+                                    </bodyTypes>
+                </front>
+
+                <back>
+                                    <bodyTypes>
+                                    <Male>(-0.02,-0.22)</Male>
+                                    <Female>(-0.02,-0.22)</Female>
+                                    <Fat>(-0.02,-0.22)</Fat>
+                                    <Thin>(-0.02,-0.22)</Thin>
+                                    </bodyTypes>
+                </back>
+
+                <side>
+                                    <bodyTypes>
+                                    <Male>(0.37,-0.36)</Male>
+                                    <Female>(0.37,-0.3)</Female>
+                                    <Fat>(0.39,-0.3)</Fat>
+                                    <Thin>(0.36,-0.36)</Thin>
+                                    </bodyTypes>
+                </side>
+                </offsets>
+                <hediffGraphics>
+                <BionicFennexTail>Things/Fennex/Tails/FTailBionic</BionicFennexTail>
+                </hediffGraphics>
+                </li>
+            </bodyAddons>
             </alienPartGenerator>
 			<chemicalSettings>	
 		    </chemicalSettings>
@@ -93,7 +130,6 @@
         <graphicPaths>
             <li>
                 <head>Things/Frijjid/Heads/</head>
-				<Tail>Things/Frijjid/Tails/F2Tail</Tail>
             </li>
         </graphicPaths>
         <hairSettings>
