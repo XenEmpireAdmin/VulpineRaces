@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<RecipeDefs>  
+<Defs>  
   <RecipeDef Abstract="True" Name="SurgeryFlesh">
     <effectWorking>Surgery</effectWorking>
     <soundWorking>Recipe_Surgery</soundWorking>
@@ -132,4 +132,4 @@
       <addsHediff>BionicFennexTail</addsHediff>
    </RecipeDef>
 
-</RecipeDefs> 
+</Defs> 

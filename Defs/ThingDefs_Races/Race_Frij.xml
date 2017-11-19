@@ -7,10 +7,10 @@
     <description>A curious Fox race, known for their obsession with information and resistance to cold.</description>
     <alienRace>
         <generalSettings>
-            <MaleGenderProbability>0.5</MaleGenderProbability>
-            <PawnsSpecificBackstories>true</PawnsSpecificBackstories>
-            <ImmuneToAge>true</ImmuneToAge>
-            <ForcedRaceTraitEntries>
+            <maleGenderProbability>0.5</maleGenderProbability>
+            <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+            <immuneToAge>true</immuneToAge>
+            <forcedRaceTraitEntries>
                 <li>
                     <defname>NaturalMood</defname>
                     <degree>2</degree>
@@ -25,7 +25,7 @@
                     <defname>Kind</defname>
 					<chance>10</chance>
                 </li>
-            </ForcedRaceTraitEntries>
+            </forcedRaceTraitEntries>
             <alienPartGenerator>
                 <aliencrowntypes>
                     <li>Average_Normal</li>
@@ -88,7 +88,7 @@
             <li>
 				<path>Things/Frijjid/Tails/F2Tail</path>
                 <bodyPart>Tail</bodyPart>
-                <UseSkinColor>true</UseSkinColor>
+                <useSkinColor>true</useSkinColor>
                 <inFrontOfBody>false</inFrontOfBody>
                       <offsets>
                 <front>
@@ -133,7 +133,7 @@
             </li>
         </graphicPaths>
         <hairSettings>
-            <HasHair>false</HasHair>
+            <hasHair>false</hasHair>
         </hairSettings>
         <pawnKindSettings>
             <alienslavekinds>
@@ -224,22 +224,52 @@
        <AnimalGatherSpeed>1.1</AnimalGatherSpeed>
        <AnimalGatherYield>1.1</AnimalGatherYield>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.45</defaultCooldownTime>
-        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.45</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <race>
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
@@ -290,16 +320,20 @@
         </li>
         <li>
           <def>AncestorStageFennex</def>
-          <minAge>1000</minAge>
+          <minAge>650</minAge>
+        </li>
+        <li>
+            <def>ProgenitorStageFennex</def>
+            <minAge>1000</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
-      <specialshadowData>
+      <specialShadowData>
         <volume>(0.3, 0.8, 0.4)</volume>
         <offset>(0,0,-0.3)</offset>
-      </specialshadowData>
+      </specialShadowData>
       <ageGenerationCurve>
         <points>
             <li>(16,0)</li>

@@ -53,4 +53,10 @@
     <reproductive>true</reproductive>
   </LifeStageDef>
 
+  <LifeStageDef>
+    <defName>ProgenitorStageFennex</defName>
+    <label>progenitor</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
 </Defs>

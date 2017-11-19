@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ThingDef Name="BasePawn" Abstract="True">
+<ThingDef Name="BaseFnnxPawn" Abstract="True">
     <thingClass>Pawn</thingClass>
     <category>Pawn</category>
     <selectable>true</selectable>
@@ -18,6 +18,7 @@
         <li>ITab_Pawn_Guest</li>
         <li>ITab_Pawn_Prisoner</li>
         <li>ITab_Pawn_Social</li>
+        <li>ITab_Pawn_Combat</li>
     </inspectorTabs>
     <comps>
         <li>
@@ -27,16 +28,16 @@
     <drawGUIOverlay>true</drawGUIOverlay>
 </ThingDef>
 
-<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+<AlienRace.ThingDef_AlienRace ParentName="BaseFnnxPawn">
     <defName>Alien_Fennex</defName>
     <label>Fennex</label>
     <description>A curious Fennex race, known for their obsession with information and love for dry climates.</description>
     <alienRace>
         <generalSettings>
-            <MaleGenderProbability>0.5</MaleGenderProbability>
-            <PawnsSpecificBackstories>true</PawnsSpecificBackstories>
-            <ImmuneToAge>true</ImmuneToAge>
-            <ForcedRaceTraitEntries>
+            <maleGenderProbability>0.5</maleGenderProbability>
+            <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+            <immuneToAge>true</immuneToAge>
+            <forcedRaceTraitEntries>
                 <li>
                     <defname>NaturalMood</defname>
                     <degree>2</degree>
@@ -51,7 +52,7 @@
                     <defname>Kind</defname>
 					<chance>20</chance>
                 </li>
-            </ForcedRaceTraitEntries>
+            </forcedRaceTraitEntries>
             <alienPartGenerator>
                 <aliencrowntypes>
                     <li>Average_Normal</li>
@@ -98,7 +99,7 @@
             <li>
 				<path>Things/Fennex/Tails/FTail</path>
                 <bodyPart>Tail</bodyPart>
-                <UseSkinColor>true</UseSkinColor>
+                <useSkinColor>true</useSkinColor>
                 <inFrontOfBody>false</inFrontOfBody>
                       <offsets>
                 <front>
@@ -143,7 +144,7 @@
             </li>
         </graphicPaths>
         <hairSettings>
-            <HasHair>false</HasHair>
+            <hasHair>false</hasHair>
         </hairSettings>
         <pawnKindSettings>
             <alienslavekinds>
@@ -234,22 +235,52 @@
        <AnimalGatherSpeed>1.1</AnimalGatherSpeed>
        <AnimalGatherYield>1.1</AnimalGatherYield>
     </statBases>
-    <verbs>
+   <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.45</defaultCooldownTime>
-        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.45</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <race>
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
@@ -300,16 +331,20 @@
         </li>
         <li>
           <def>AncestorStageFennex</def>
-          <minAge>1000</minAge>
+          <minAge>650</minAge>
+        </li>
+        <li>
+            <def>ProgenitorStageFennex</def>
+            <minAge>1000</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
-      <specialshadowData>
+      <specialShadowData>
         <volume>(0.3, 0.8, 0.4)</volume>
         <offset>(0,0,-0.3)</offset>
-      </specialshadowData>
+      </specialShadowData>
       <ageGenerationCurve>
         <points>
             <li>(16,0)</li>
