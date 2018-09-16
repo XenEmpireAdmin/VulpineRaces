@@ -14,9 +14,16 @@
     <defName>Fennex</defName>
     <label>colonist</label>
     <defaultFactionType>FennexPlayerColony</defaultFactionType>
-    <backstoryCategory>FennexBackstory</backstoryCategory>
+    <backstoryCategories>
+			<li>FennexBackstory</li>
+  	</backstoryCategories>
     <apparelTags>
       <li>Spacer</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>

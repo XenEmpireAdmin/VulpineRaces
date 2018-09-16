@@ -6,13 +6,20 @@
   <PawnKindDef Name="FrijjidBase" Abstract="True">
     <defaultFactionType>FrijjidFaction</defaultFactionType>
     <race>Alien_Frijjid</race>
-	<backstoryCategory>FennexBackstory</backstoryCategory>
+	<backstoryCategories>
+			<li>FennexBackstory</li>
+  	</backstoryCategories>
     <chemicalAddictionChance>0.005</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
       <li>Outlander</li>
 	  <li>Military</li>
+    <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
     </apparelTags>
 	 <weaponTags>
 	  <li>EliteGun</li>
@@ -178,6 +185,9 @@
     </weaponMoney>
     <weaponTags>
 	  <li>EliteGun</li>
+    <li>EliteGun</li>
+    <li>AdvancedGun</li>
+    <li>Gun</li>
     </weaponTags>
     <techHediffsMoney>
       <min>1000</min>
@@ -194,7 +204,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -261,7 +271,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -316,7 +326,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>
@@ -373,7 +383,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>

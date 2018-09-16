@@ -5,7 +5,7 @@
     <defName>FennexAgentKid</defName>
     <title>Young agent</title>
 	<titleShort>Kid-agent</titleShort>
-    <baseDescription>NAME was born in one of the training facilities devoted to producing intelligence operatives. HIS formative years were occupied with many of the usual mundane types of education, but augmented with courses on observation and combat.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was born in one of the training facilities devoted to producing intelligence operatives. [PAWN_possessive] formative years were occupied with many of the usual mundane types of education, but augmented with courses on observation and combat.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -29,7 +29,7 @@
         <amount>4</amount>
       </li>
 	    <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -40,7 +40,7 @@
     <defName>FennexMisckid</defName>
     <title>Mischevious</title>
 	<titleShort>Mischevious</titleShort>
-    <baseDescription>NAME was the classic mischevious kit. Always getting caught with HIS hands in the cookie jar (literal or proverbial).</baseDescription>
+    <baseDescription>[PAWN_nameDef] was the classic mischevious kit. Always getting caught with [PAWN_possessive] hands in the cookie jar (literal or proverbial).</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -59,7 +59,7 @@
         <amount>4</amount>
       </li>
 	   <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>2</amount>
       </li>
       <li>
@@ -74,7 +74,7 @@
     <defName>FennexMEng</defName>
     <title>Mech engineer</title>
 	<titleShort>M-Engineer</titleShort>
-    <baseDescription>NAME was a technician working on bipedal walking battlemechs in the Solaris arena. HIS long hours kept HIS team winning matches, and honed HIS skills to a razor edge.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a technician working on bipedal walking battlemechs in the Solaris arena. [PAWN_possessive] long hours kept [PAWN_possessive] team winning matches, and honed [PAWN_possessive] skills to a razor edge.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>FennexBackstory</li>
@@ -94,7 +94,7 @@
         <amount>6</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -104,7 +104,7 @@
     <defName>FennexMachinW</defName>
     <title>Machinist</title>
 	<titleShort>Machinist</titleShort>
-    <baseDescription>NAME worked in a metal shop, working a metal milling machine, manufacturing components for various devices. HECAP has a fine eye for detail, and a steady hand.</baseDescription>
+    <baseDescription>[PAWN_nameDef] worked in a metal shop, working a metal milling machine, manufacturing components for various devices. [PAWN_pronoun] has a fine eye for detail, and a steady hand.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>FennexBackstory</li>
@@ -130,7 +130,7 @@
     <defName>FennexEngineerX</defName>
     <title>Hotrod apprentice</title>
 	<titleShort>Hot-rodder</titleShort>
-    <baseDescription>NAME worked with HIS father, running an old Auto-repair shop in a dusty frontier town, restoring old wrecks into dream-machines. How HECAP ended up here is a mystery...</baseDescription>
+    <baseDescription>[PAWN_nameDef] worked with [PAWN_possessive] father, running an old Auto-repair shop in a dusty frontier town, restoring old wrecks into dream-machines. How [PAWN_pronoun] ended up here is a mystery...</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>FennexBackstory</li>
@@ -156,7 +156,7 @@
     <defName>FennexOrchard</defName>
     <title>Fruit rancher</title>
 	<titleShort>F-Rancher</titleShort>
-    <baseDescription>NAME had fine orchards, with the juiciest Oranges around... until a strange meteorite landed square in the middle of HIS land, tainting the soil. It's only a matter of time tile HECAP can get on HIS feet again.</baseDescription>
+    <baseDescription>[PAWN_nameDef] had fine orchards, with the juiciest Oranges around... until a strange meteorite landed square in the middle of [PAWN_possessive] land, tainting the soil. It's only a matter of time tile [PAWN_pronoun] can get on [PAWN_possessive] feet again.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>FennexBackstory</li>
@@ -168,7 +168,7 @@
 	<femaleCommonality>20</femaleCommonality>
     <skillGains>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>6</amount>
       </li>
 	   <li>
@@ -190,7 +190,7 @@
     <defName>FennexTyrokid</defName>
     <title>Tyro</title>
 	<titleShort>Tyro</titleShort>
-    <baseDescription>NAME was apprenticing under HIS father, learning the family trade. HECAP was an attentive student, but always longed for HIS free time when HE would play with HIS B-B gun in the fields near HIS home.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was apprenticing under [PAWN_possessive] father, learning the family trade. [PAWN_pronoun] was an attentive student, but always longed for [PAWN_possessive] free time when HE would play with [PAWN_possessive] B-B gun in the fields near [PAWN_possessive] home.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>FennexBackstory</li>
@@ -224,7 +224,7 @@
     <defName>FennexSpacer</defName>
     <title>Noble line</title>
     <titleShort>Noble</titleShort>
-    <baseDescription>NAME is apparently descended from an ancient line of kings, or at least HIS grandfather was always drumming it into HIS head, along with various lessons on etiquette, protocol, and political lessons.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is apparently descended from an ancient line of kings, or at least [PAWN_possessive] grandfather was always drumming it into [PAWN_possessive] head, along with various lessons on etiquette, protocol, and political lessons.</baseDescription>
     <slot>Childhood</slot>
 	  <bodyTypeFemale>Female</bodyTypeFemale>
   	<bodyTypeMale>Male</bodyTypeMale>
@@ -253,7 +253,7 @@
     <defName>FennexForestKid</defName>
     <title>Young forester</title>
     <titleShort>Forester-kid</titleShort>
-    <baseDescription>NAME grew up right at the edge of a great forest. HECAP spent most of HIS free time playing and investigating all the fascinating plants and animals that HECAP could find there.</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up right at the edge of a great forest. [PAWN_pronoun] spent most of [PAWN_possessive] free time playing and investigating all the fascinating plants and animals that [PAWN_pronoun] could find there.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -264,7 +264,7 @@
     </spawnCategories>
     <skillGains>
           <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>6</amount>
       </li>
       <li>
@@ -290,7 +290,7 @@
     <defName>FennexColonyKid</defName>
     <title>Fennex colonykid</title>
     <titleShort>Kid</titleShort>
-    <baseDescription>NAME was born in a small trading post on the outer rims. HECAP had to learn to carry HIS weight and keep the colony running from an early age.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was born in a small trading post on the outer rims. [PAWN_pronoun] had to learn to carry [PAWN_possessive] weight and keep the colony running from an early age.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -307,7 +307,7 @@
         <amount>1</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>2</amount>
       </li>
     </skillGains>
@@ -321,7 +321,7 @@
     <defName>FennexCityKid</defName>
     <title>City kid</title>
     <titleShort>Urb-kit</titleShort>
-    <baseDescription>NAME grew up in one of the megalopolis centers on a dense Urbworld. After school, HECAP would head off to one of the metro malls or arcades. Growing up in a concrete landscape, left HIM a bit lacking when it comes to plants and animals.</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up in one of the megalopolis centers on a dense Urbworld. After school, [PAWN_pronoun] would head off to one of the metro malls or arcades. Growing up in a concrete landscape, left [PAWN_pronoun] a bit lacking when it comes to plants and animals.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -341,7 +341,7 @@
         <amount>2</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>-1</amount>
       </li>
     </skillGains>
@@ -354,7 +354,7 @@
     <defName>FennexCountryKid</defName>
     <title>Farm kid</title>
     <titleShort>Farm-kit</titleShort>
-    <baseDescription>NAME grew up in an ag region, supporting the major metropolises food supply on HIS Rimworld. Living so far from other young people made social life difficult, but NAME made the best of it - though HECAP ended up a bit shy.</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up in an ag region, supporting the major metropolises food supply on [PAWN_possessive] Rimworld. Living so far from other young people made social life difficult, but [PAWN_nameDef] made the best of it - though [PAWN_pronoun] ended up a bit shy.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -374,7 +374,7 @@
         <amount>2</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>5</amount>
       </li>
     </skillGains>
@@ -387,7 +387,7 @@
     <defName>FennexGeniusKid</defName>
     <title>Young genius</title>
     <titleShort>Prodigy</titleShort>
-    <baseDescription>NAME loved tinkering with HIS toys, taking them apart and reassembling them - programming simple little computer programs from HIS elementary school textbooks - or simply reading any piece of information HECAP can get HIS hands on.</baseDescription>
+    <baseDescription>[PAWN_nameDef] loved tinkering with [PAWN_possessive] toys, taking them apart and reassembling them - programming simple little computer programs from [PAWN_possessive] elementary school textbooks - or simply reading any piece of information [PAWN_pronoun] can get [PAWN_possessive] hands on.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -407,7 +407,7 @@
         <amount>4</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>5</amount>
       </li>
          <li>
@@ -424,7 +424,7 @@
     <defName>FennexDigKid</defName>
     <title>Tunnel kit</title>
     <titleShort>T-kit</titleShort>
-    <baseDescription>NAME was always digging little tunnels in the dirt or snow, or making sandcastles at the beach. HIS parents encouraged HIM to learn about geology, and HIS father would challenge HIM to find certain kinds of rocks in the yard.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was always digging little tunnels in the dirt or snow, or making sandcastles at the beach. [PAWN_possessive] parents encouraged [PAWN_pronoun] to learn about geology, and [PAWN_possessive] father would challenge [PAWN_pronoun] to find certain kinds of rocks in the yard.</baseDescription>
 	  <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <maleCommonality>20</maleCommonality>
@@ -432,7 +432,7 @@
 	<slot>Childhood</slot>
     <skillGains>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
 	  <li>
@@ -454,7 +454,7 @@
     <defName>FennexArmorer</defName>
     <title>Armorer</title>
     <titleShort>Armorer</titleShort>
-    <baseDescription>NAME was interested in guns and firearms of all kinds from a young age. HIS interest led HIM to the military, where he was in charge of the Armory - maintiaing all the weapons and various equipment alongside the Gunsmiths.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was interested in guns and firearms of all kinds from a young age. [PAWN_possessive] interest led [PAWN_pronoun] to the military, where he was in charge of the Armory - maintiaing all the weapons and various equipment alongside the Gunsmiths.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -479,7 +479,7 @@
     <defName>FennexProst</defName>
     <title>Hooker</title>
     <titleShort>Hooker</titleShort>
-    <baseDescription>NAME was a practitioner of 'the oldest profession' - walking the streets selling ass.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a practitioner of 'the oldest profession' - walking the streets selling ass.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>10</maleCommonality>
@@ -495,7 +495,7 @@
         <amount>5</amount>
         </li>
 	     <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -508,7 +508,7 @@
     <defName>Fennexminer</defName>
     <title>Deep-tunnel miner</title>
     <titleShort>Deepminer</titleShort>
-    <baseDescription>NAME operated a deep-core drilling rig, sometimes miles below the surface where the stresses from pressure and heat on the machines require constant maintenance. HECAP developed a strong back and keen eye for geology and metallurgy.</baseDescription>
+    <baseDescription>[PAWN_nameDef] operated a deep-core drilling rig, sometimes miles below the surface where the stresses from pressure and heat on the machines require constant maintenance. [PAWN_pronoun] developed a strong back and keen eye for geology and metallurgy.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>30</maleCommonality>
@@ -533,7 +533,7 @@
     <defName>FennexBiogen</defName>
     <title>Biologist</title>
     <titleShort>Biologist</titleShort>
-    <baseDescription>NAME is a biologist. HECAP has dedicated HIS life to unravelling the secrets of life itself! Or just studying it, depending on your specific field!</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a biologist. [PAWN_pronoun] has dedicated [PAWN_possessive] life to unravelling the secrets of life itself! Or just studying it, depending on your specific field!</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
@@ -558,7 +558,7 @@
     <defName>FennexConn</defName>
     <title>Restaurateur</title>
     <titleShort>Restaurateur</titleShort>
-    <baseDescription>NAME owned and operated a chain of successful high-class urbworld restaurants. Unfortunately, they didn't survive the franchise wars against Taco Gong, and HECAP was forced to flee the planet.</baseDescription>
+    <baseDescription>[PAWN_nameDef] owned and operated a chain of successful high-class urbworld restaurants. Unfortunately, they didn't survive the franchise wars against Taco Gong, and [PAWN_pronoun] was forced to flee the planet.</baseDescription>
   	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeGlobal>Fat</bodyTypeGlobal>
@@ -584,7 +584,7 @@
     <defName>FennexStalkerBS</defName>
     <title>Fennex hunter</title>
     <titleShort>Hunter</titleShort>
-    <baseDescription>NAME is a professional hunter. Sometimes called to put down manhunters, or guide rich dentists on Safari, HIS skills as a tracker are only matched by HIS skill at handling.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a professional hunter. Sometimes called to put down manhunters, or guide rich dentists on Safari, [PAWN_possessive] skills as a tracker are only matched by [PAWN_possessive] skill at handling.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>25</maleCommonality>
@@ -614,7 +614,7 @@
     <defName>FennexDistiller</defName>
     <title>Booze king</title>
     <titleShort>Distiller</titleShort>
-    <baseDescription>NAME was renowned for making the strongest liquors. If you wanted a drink that would put down a raging Thrumbo, HECAP had the stuff. Unfortunately, a leak in a storage tank plus a small spark equals a very large explosion and 'no more distillery'. Looks like HECAP is starting over...</baseDescription>
+    <baseDescription>[PAWN_nameDef] was renowned for making the strongest liquors. If you wanted a drink that would put down a raging Thrumbo, [PAWN_pronoun] had the stuff. Unfortunately, a leak in a storage tank plus a small spark equals a very large explosion and 'no more distillery'. Looks like [PAWN_pronoun] is starting over...</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -626,7 +626,7 @@
         <amount>6</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -639,7 +639,7 @@
     <defName>FennexTrailblazer</defName>
     <title>Trail blazer</title>
     <titleShort>Blazer</titleShort>
-    <baseDescription>NAME is at the forefront of the effort to expand the territories controlled by the Alliance - rushing headlong into the unknown to colonize uncharted worlds and eke out a living.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is at the forefront of the effort to expand the territories controlled by the Alliance - rushing headlong into the unknown to colonize uncharted worlds and eke out a living.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>30</maleCommonality>
@@ -651,7 +651,7 @@
         <amount>3</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>3</amount>
       </li>
       <li>
@@ -669,7 +669,7 @@
     <defName>FennexResearcher</defName>
     <title>Historical researcher</title>
     <titleShort>Researcher</titleShort>
-    <baseDescription>NAME is among the foremost historians among HIS people, especially in regards to lineage and ancient heraldry. Many have sought HIS services, claiming relation to some long-dead king or emperor. HECAP delves through ancient texts and records in search of what truth can be found.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is among the foremost historians among [PAWN_possessive] people, especially in regards to lineage and ancient heraldry. Many have sought [PAWN_possessive] services, claiming relation to some long-dead king or emperor. [PAWN_pronoun] delves through ancient texts and records in search of what truth can be found.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -698,7 +698,7 @@
     <defName>FennexDoctor</defName>
     <title>Frontier doctor</title>
     <titleShort>Doc</titleShort>
-    <baseDescription>NAME has taken an oath to devote HIS life to healing others. HECAP has taken HIS mission out to the furthest reaches and the dustiest outposts. You know... places like this...</baseDescription>
+    <baseDescription>[PAWN_nameDef] has taken an oath to devote [PAWN_possessive] life to healing others. [PAWN_pronoun] has taken [PAWN_possessive] mission out to the furthest reaches and the dustiest outposts. You know... places like this...</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>25</maleCommonality>
@@ -719,7 +719,7 @@
     <defName>FennexChef</defName>
     <title>Fennex diner-chef</title>
     <titleShort>Diner-chef</titleShort>
-    <baseDescription>NAME was a chef in an old Retro-style diner from ancient earth history. It was a pretty popular place, the cherry-red seating and chrome hilights flash and splendor matched the fantastically prepared diner-style food HECAP created every day. How did HECAP end up here?</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a chef in an old Retro-style diner from ancient earth history. It was a pretty popular place, the cherry-red seating and chrome hilights flash and splendor matched the fantastically prepared diner-style food [PAWN_pronoun] created every day. How did [PAWN_pronoun] end up here?</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <maleCommonality>30</maleCommonality>
@@ -740,7 +740,7 @@
     <defName>FennexKeeper</defName>
     <title>Fennex librarian</title>
     <titleShort>Keeper</titleShort>
-    <baseDescription>NAME spent HIS days sorting, stacking, and reading, books of all kinds, as a Keeper in one of the central city libraries.</baseDescription>
+    <baseDescription>[PAWN_nameDef] spent [PAWN_possessive] days sorting, stacking, and reading, books of all kinds, as a Keeper in one of the central city libraries.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -769,7 +769,7 @@
     <defName>PrivateFennex</defName>
     <title>Runner</title>
     <titleShort>Runner</titleShort>
-    <baseDescription>NAME was a package runner for a small delivery service. It is HIS duty to deliver small items and packages, or information, wherever HIS superiors order.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a package runner for a small delivery service. It is [PAWN_possessive] duty to deliver small items and packages, or information, wherever [PAWN_possessive] superiors order.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>30</maleCommonality>
@@ -794,7 +794,7 @@
     <defName>MajorFennex</defName>
     <title>Tank commander</title>
     <titleShort>T-Commander</titleShort>
-    <baseDescription>NAME was commanding officer of an armored assault unit. HECAP has endured heavy military and tactical training, with a heavy focus on armored vehicle combat.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was commanding officer of an armored assault unit. [PAWN_pronoun] has endured heavy military and tactical training, with a heavy focus on armored vehicle combat.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -823,7 +823,7 @@
     <defName>FennexSpacerAdult</defName>
     <title>Fennex space-trader</title>
     <titleShort>F-Spacer</titleShort>
-    <baseDescription>NAME was a free-trader, roving the tradeways searching for deals and opportunities for profit. Until now, HE was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a free-trader, roving the tradeways searching for deals and opportunities for profit. Until now, HE was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -853,7 +853,7 @@
     <defName>FennexTroop</defName>
     <title>Fox-hound</title>
     <titleShort>Foxhound</titleShort>
-    <baseDescription>NAME was one of an ultra-elite troop of soldiers, founded by the legendary "Really Big Boss". </baseDescription>
+    <baseDescription>[PAWN_nameDef] was one of an ultra-elite troop of soldiers, founded by the legendary "Really Big Boss". </baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>28</maleCommonality>
@@ -886,7 +886,7 @@
     <defName>FennexAssassin</defName>
     <title>Fennex hitman</title>
     <titleShort>Cleaner</titleShort>
-    <baseDescription>NAME is a deadly assassin for profit. HECAP always completes HIS contracts (and always tries to look REALLY cool while doing it).</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a deadly assassin for profit. [PAWN_pronoun] always completes [PAWN_possessive] contracts (and always tries to look REALLY cool while doing it).</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>28</maleCommonality>
@@ -920,7 +920,7 @@
     <defName>FennexAstroPhy</defName>
     <title>Astryphysicist</title>
     <titleShort>Astrophysicist</titleShort>
-    <baseDescription>NAME was inspired from childhood by the stars. HECAP spent many long hours gazing through HIS telescope, charting the cosmos.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was inspired from childhood by the stars. [PAWN_pronoun] spent many long hours gazing through [PAWN_possessive] telescope, charting the cosmos.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>10</maleCommonality>
@@ -953,7 +953,7 @@
     <defName>FennexAgentBS</defName>
     <title>Paleobotanist</title>
     <titleShort>Paleobotanist</titleShort>
-    <baseDescription>NAME has spent years studying ancient plant life, excavating and preserving ancient specimens from geological substrates, or studying samples in the lab.</baseDescription>
+    <baseDescription>[PAWN_nameDef] has spent years studying ancient plant life, excavating and preserving ancient specimens from geological substrates, or studying samples in the lab.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>10</maleCommonality>
@@ -982,7 +982,7 @@
     <defName>FennexMathman</defName>
     <title>Mathematician</title>
     <titleShort>Mathematician</titleShort>
-    <baseDescription>NAME is a professional mathematician. HECAP uses HIS expertise with mathematics to solve difficult engineering and physics problems.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a professional mathematician. [PAWN_pronoun] uses [PAWN_possessive] expertise with mathematics to solve difficult engineering and physics problems.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
@@ -1013,7 +1013,7 @@
     <defName>FennexAirMech</defName>
     <title>Airfield mechanic</title>
     <titleShort>Air-mechanic</titleShort>
-    <baseDescription>NAME was a skilled mechanic, in charge of maintenance at a major airfield. HECAP was hard-pressed to keep up with the workload, but HIS team was competant, and helped keep the airfield and it's traffic in good working order.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a skilled mechanic, in charge of maintenance at a major airfield. [PAWN_pronoun] was hard-pressed to keep up with the workload, but [PAWN_possessive] team was competant, and helped keep the airfield and it's traffic in good working order.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <maleCommonality>25</maleCommonality>
@@ -1042,9 +1042,11 @@
     <defName>FennexPlanetol</defName>
     <title>Exoplanetologist</title>
     <titleShort>Exoplanetologist</titleShort>
-    <baseDescription>NAME is a scientist specializing in studying planets that orbit a star outside the current stellar system. HECAP has developed a special set of skills, software, and tools, for studying distant planets to uncover potential resources or discoveries.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a scientist specializing in studying planets that orbit a star outside the current stellar system. [PAWN_pronoun] has developed a special set of skills, software, and tools, for studying distant planets to uncover potential resources or discoveries.</baseDescription>
 		<maleCommonality>30</maleCommonality>
 	<femaleCommonality>30</femaleCommonality>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
